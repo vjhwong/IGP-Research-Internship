@@ -6,7 +6,7 @@ This repository contains the data analysis work I did to research the utility of
 # SIA 
 Signal of Immune Activation, SIA, is a metric that can be used to predict cancer patients' response to certain immunotherapy treatments. The metrics can be calculated in two ways. The first is the gene expression-based SIA which is calculated by the following fraction:
 $\frac{CD8^+}{C1QX}$
-where C1QX is one of C1QA, C1QB or C1QC. In the notebook, I compared the gene expression-based SIA score with the cell type-based SIA score. The genes selected in the gene expression-based SIA are meant to be proxies for the cell types CD8+ T cells and CD68+CD163+ Macrophages. I used CIBERSORTx, a deconvolution tool developed by Stanford to impute cell fractions of the dataset I worked with which was a melanoma dataset. 
+where C1QX is one of C1QA, C1QB or C1QC. In the notebook, I compared the gene expression-based SIA score with the cell type-based SIA score. The genes selected in the gene expression-based SIA are meant to be proxies for the cell types CD8+ T cells and CD68+CD163+ Macrophages. I used [CIBERSORTx](https://cibersortx.stanford.edu/), a deconvolution tool developed by Stanford to impute cell fractions of the dataset I worked with which was a melanoma dataset. 
 
 # Plot from the notebook
 ![plot](https://i.postimg.cc/V67DGZn6/fig-5-plot.png)
