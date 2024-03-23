@@ -10,4 +10,9 @@ where C1QX is one of C1QA, C1QB or C1QC. In the notebook, I compared the gene ex
 
 # Plot from the notebook
 ![plot](images/fig_5_plot.png)
-These strip plots display the four different SIA scores divided into the three categories of responders, partial-responders, and non-responders. The text box in each strip plot shows the number of non-responders and partial-responders whose values are below the lowest responder's values. This is to give a clear indication of the distribution of scores within each category and how they compare to each other. Additionally, the color scheme used in the plots helps differentiate between the different categories for easy visual interpretation. These strip plots provide valuable insights into the distribution of SIA scores across different responder groups, aiding in the analysis and understanding of the data.
+These strip plots display the four different SIA scores divided into the three categories of responders, partial-responders, and non-responders. The text box in each strip plot shows the number of non-responders and partial-responders whose values are below the lowest responder's values. This is to give a clear indication of the distribution of scores within each category and how they compare to each other. Additionally, the color scheme used in the plots helps differentiate between the different categories for easy visual interpretation. These strip plots provide valuable insights into the distribution of SIA scores across different responder groups, aiding in the analysis and understanding of the data. Data were taken from GSE78220.
+
+![plot](images/SIA C1QC.png)
+Survival plot of SIA C1QC using data from GSE39582. 
+
+
