@@ -9,5 +9,5 @@ $\frac{CD8^+}{C1QX}$
 where C1QX is one of C1QA, C1QB or C1QC. In the notebook, I compared the gene expression-based SIA score with the cell type-based SIA score. The genes selected in the gene expression-based SIA are meant to be proxies for the cell types CD8+ T cells and CD68+CD163+ Macrophages. I used [CIBERSORTx](https://cibersortx.stanford.edu/), a deconvolution tool developed by Stanford to impute cell fractions of the dataset I worked with which was a melanoma dataset. 
 
 # Plot from the notebook
-![plot](https://i.postimg.cc/V67DGZn6/fig-5-plot.png)
+![plot](images/fig_5_plot.png)
 These strip plots display the four different SIA scores divided into the three categories of responders, partial-responders, and non-responders. The text box in each strip plot shows the number of non-responders and partial-responders whose values are below the lowest responder's values. This is to give a clear indication of the distribution of scores within each category and how they compare to each other. Additionally, the color scheme used in the plots helps differentiate between the different categories for easy visual interpretation. These strip plots provide valuable insights into the distribution of SIA scores across different responder groups, aiding in the analysis and understanding of the data.
