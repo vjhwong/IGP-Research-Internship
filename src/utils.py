@@ -257,6 +257,7 @@ def generate_stripplot(plot_data: pd.DataFrame) -> None:
         )
         axes[i].axhline(y=min_responder, color="g", linestyle="--")
         axes[i].set_xlabel("")
+        axes[i].set_ylabel("SIA")
         if column.startswith("SIAC1Q"):
             axes[i].set_ylim(0, 0.1)
         test_str = "\n".join(
@@ -282,6 +283,7 @@ def generate_stripplot(plot_data: pd.DataFrame) -> None:
             fontsize=9,
             color="g",
         )
+        axes[i].set_title(column)
     fig.suptitle("Melanoma (bulk RNA)")
     # Adjust layout
     plt.tight_layout()
